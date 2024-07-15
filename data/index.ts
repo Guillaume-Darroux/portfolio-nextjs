@@ -1,7 +1,7 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "A propos", link: "#about" },
+  { name: "Projets", link: "#projects" },
+  { name: "Témoignages", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -73,8 +73,8 @@ export const projects = [
   {
     id: 1,
     title: "Naturopathe professionnelle",
-    des: "Site web responsive présentant son activité et ses services. Prise de rendez-vous en ligne, blog et téléchargement d'ebooks pdf.",
-    img: "/naturo.jpg",
+    des: "Site web responsive avec blog, prise de rendez-vous en ligne et téléchargement d'ebooks pdf.",
+    img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://github.com/adrianhajdin?tab=repositories",
   },
