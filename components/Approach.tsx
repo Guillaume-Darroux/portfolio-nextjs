@@ -14,9 +14,7 @@ const Approach = () => {
         <Card
           title="Planification & étude"
           icon={<AceternityIcon order="Etape 1" />}
-          description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          description="Nous collaborons pour définir précisément les objectifs de votre site web, le public cible et les fonctionnalités clés. Je rédige ensuite le cahier des charges, puis vous présente des maquettes afin de valider le design et l'ergonomie de votre futur site web."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,9 +24,7 @@ const Approach = () => {
         <Card
           title="Développement"
           icon={<AceternityIcon order="Etape 2" />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          description="A partir de là, j'entame le développement de votre site web, en utilisant la stack technique la plus adaptée en fonction des besoins. Le tout bien sûr en respectant la maquette précédemment validée."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -45,9 +41,7 @@ const Approach = () => {
         <Card
           title="Déploiement & hébergement"
           icon={<AceternityIcon order="Etape 3" />}
-          description="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          description="Enfin, je déploie votre site web en ligne grâce à l'hébergeur le plus adapté. Cela permet d'avoir des performances optimales et une sécurité accrue. Suivant les besoins, je peux également me charger de la mise à jour régulière de votre site."
         >
           <CanvasRevealEffect
             animationSpeed={3}

@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: ".",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Je suis ouvert aux missions à l'international.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Passioné des nouvelles technologies et par le développement.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,19 +72,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Naturopathe professionnelle",
-    des: "Site web responsive avec blog, prise de rendez-vous en ligne et téléchargement d'ebooks pdf.",
+    title: "Portfolio professionnel",
+    des: "Portfolio responsive, minimaliste et moderne. Créé avec Next.js, Typescript et Tailwind CSS.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    iconLists: ["/next.svg", "/ts.svg", "/tail.svg"],
+    link: "https://github.com/Guillaume-Darroux/portfolio-nextjs",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Celestine-Naturopathe",
+    des: "Naturopathe spécialisée dans la gestion du stress. Site web responsive avec blog, prise de rendez-vous en ligne et téléchargement d'ebooks pdf.",
+    img: "/naturo.jpg",
+    iconLists: [],
+    link: "#",
   },
   {
     id: 3,
@@ -99,7 +99,14 @@ export const projects = [
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/gsap.svg",
+      "stream.svg",
+    ],
     link: "https://github.com/adrianhajdin/iphone",
   },
 ];
@@ -107,33 +114,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Nous avons eu le plaisir de travailler avec Guillaume sur une mission exigeante ; celle de tuteur pédagogique, et nous sommes extrêmement satisfaits de sa prestation. Il a démontré une excellente capacité à remonter les informations pertinentes et à s’adresser aux interlocuteurs appropriés, contribuant ainsi de manière significative à la réussite de sa mission. Et cela, autant du côté des apprenants qu’auprès des collaborateurs en interne. Guillaume excelle dans la prise en charge de ses responsabilités et a su parfaitement saisir les enjeux de sa mission mêlant suivi pédagogique, support technique et gestion administrative. Il a été remarquable jusqu’à présent, et nous sommes convaincus que ses compétences et son professionnalisme continueront à être des atouts majeurs dans ses futures missions.",
+    name: "Susie Lizé",
+    title: "Ecole O'clock",
+    profilePicture: "oclock.svg",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
+    profilePicture: "profile.svg",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
+    profilePicture: "profile.svg",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
+    profilePicture: "profile.svg",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
+    profilePicture: "profile.svg",
   },
 ];
 
@@ -173,14 +185,14 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Développeur Frontend",
-    desc: "Développement Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Développeur Front end",
+    desc: "Mes technos de prédilection sont entre autre React, Next.js, Tailwind CSS et Typescript.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Développeur Back end",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
@@ -194,7 +206,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Assistant formateur",
+    title: "Lead Frontend Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -206,15 +218,18 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
     alt: "github icon",
+    url: "https://github.com/Guillaume-Darroux/",
   },
-  {
+  /* {
     id: 2,
     img: "/twit.svg",
     alt: "twitter icon",
+    url: "https://twitter.com/"
   },
   {
     id: 3,
     img: "/link.svg",
     alt: "linkedin icon",
-  },
+    url: "https://www.linkedin.com/in/guillaumedarroux/"
+  }, */
 ];

@@ -1,5 +1,5 @@
 import { socialMedia } from "@/data";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
           Prêt à faire passer <span className="text-purple">votre</span>{" "}
           présence digitale au niveau supérieur ?
         </h1>
-        <p className="text-white-200 md:mt-10 my-5">
+        <p className="text-white-200 md:mt-10 my-5 text-center">
           Contactez-moi et discutons ensemble dès aujourd&apos;hui de la manière
           dont je peux vous aider à atteindre vos objectifs.
         </p>
@@ -21,6 +21,7 @@ const Footer = () => {
             position="right"
           />
         </a>
+        {/* <Form /> */} {/* //TODO: Implémenter le formulaire  */}
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
@@ -32,7 +33,14 @@ const Footer = () => {
               key="profile.id"
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <img src={profile.img} alt={profile.alt} width={20} height={20} />
+              <a href={profile.url} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={profile.img}
+                  alt={profile.alt}
+                  width={20}
+                  height={20}
+                />
+              </a>
             </div>
           ))}
         </div>
