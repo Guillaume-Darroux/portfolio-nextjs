@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "Portfolio professionnel",
-    des: "Portfolio responsive, minimaliste et moderne. Créé avec Next.js, Typescript et Tailwind CSS.",
+    des: "Site professionnel responsive, minimaliste et moderne. Créé avec Next.js, Typescript et Tailwind CSS.",
     img: "/p1.svg",
     iconLists: ["/next.svg", "/ts.svg", "/tail.svg"],
     link: "https://github.com/Guillaume-Darroux/portfolio-nextjs",
